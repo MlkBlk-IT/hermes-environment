@@ -58,6 +58,40 @@ Hermes Agent → IcyCache:8080 (local cache/proxy) → OmniRoute:20128 (14 provi
 
 ---
 
+## 🌐 Ecosystem — Built on Hermes
+
+<div align="center"><img src="https://raw.githubusercontent.com/MlkBlk-IT/MlkBlk-IT/main/assets/project-grid-v5.svg" width="100%" alt="MLKBLK-IT portfolio — HERMES flagship" /></div>
+
+Every project in [@MlkBlk-IT](https://github.com/MlkBlk-IT) is built, tested and documented **on this Hermes environment**. The flagship is this repository; the sibling projects below share the same host, the same routing chain and the same design system.
+
+| Project | Repo | What it is |
+|---------|------|------------|
+| **HERMES environment** | [hermes-environment](https://github.com/MlkBlk-IT/hermes-environment) | This repo — complete verified documentation of the runtime |
+| **Lab-SRV1** | [MlkBlk-IT/Lab-SRV1](https://github.com/MlkBlk-IT/Lab-SRV1) | Hyper-V & Windows Server security lab — AD, GPO, hardening, detection |
+| **Redmi HomeLab** | [MlkBlk-IT/Redmi-Note-10-HomeLab](https://github.com/MlkBlk-IT/Redmi-Note-10-HomeLab) | Android + Linux + eBPF + networking home lab |
+| **FocusDopa** | [MlkBlk-IT/FocusDopa-Android](https://github.com/MlkBlk-IT/FocusDopa-Android) | Android focus assistant and reminders |
+| **Smart RAM Booster** | [MlkBlk-IT/smart-ram-booster](https://github.com/MlkBlk-IT/smart-ram-booster) | Windows 11 RAM optimizer — native engine, real measurements |
+| **ViaRoma** | private | Full AI gateway, built solo in 16h |
+| **LoFT** | private | — |
+| **Osiris** | [d:/mcp-osiris](https://github.com/MlkBlk-IT) | MCP audit / progress tracking server |
+| **Loom / Icy-Loom** | [D:/Icy-Loom](https://github.com/MlkBlk-IT) | MCP context-cache — lossless context offloading |
+| **IcyCache** | [D:/IcyCache](https://github.com/MlkBlk-IT) | LLM response cache with hit-rate instrumentation |
+| **Mcp-QadGraph** | [D:/](https://github.com/MlkBlk-IT) | MCP + Qdrant graph integration |
+| **OpenClaw** | [D:/](https://github.com/MlkBlk-IT) | — |
+
+---
+
+## 🧪 Lab-SRV1
+
+**Lab-SRV1** is the security lab that validates the Hermes environment: a Hyper-V host running Windows Server + Active Directory, used for defensive validation, detection engineering and remediation drills.
+
+- **[MlkBlk-IT/Lab-SRV1](https://github.com/MlkBlk-IT/Lab-SRV1)** — Hyper-V & Windows Server security lab
+- The Lab runs on the same Latitude 5420 documented here — CPU-only, free-tier, read-only evidence collection
+
+---
+
+---
+
 ## 🎨 Design System (Reproduced from Source DOCX)
 
 | Token | Hex | Usage |
