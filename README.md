@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/figures/fig_architecture.png" alt="Hermes Architecture" width="800"/>
-</p>
+<div align="center"><img src="assets/banner.svg" width="100%" alt="HERMES environment banner"/></div>
 
 <h1 align="center" style="color: #16233A;">Hermes Environment</h1>
 <p align="center" style="font-size: 1.2rem; color: #17A398; font-weight: 500;">
@@ -12,7 +10,7 @@
   <img src="https://img.shields.io/badge/Windows-11_Build_26300-0078D4?style=for-the-badge&logo=windows" alt="Windows 11"/>
   <img src="https://img.shields.io/badge/Local_Inference-CPU_Only-FF6B35?style=for-the-badge" alt="CPU Only"/>
   <img src="https://img.shields.io/badge/Providers-19-17A398?style=for-the-badge" alt="19 Providers"/>
-  <img src="httpsimg.shields.io/badge/MCP_Servers-58-4AAEA0?style=for-the-badge" alt="58 MCP Servers"/>
+  <img src="https://img.shields.io/badge/MCP_Servers-58-4AAEA0?style=for-the-badge" alt="58 MCP Servers"/>
   <img src="https://img.shields.io/badge/Skills-596_Active-16233A?style=for-the-badge" alt="596 Active Skills"/>
   <img src="https://img.shields.io/badge/Plugins-26_Active-FF6B35?style=for-the-badge" alt="26 Active Plugins"/>
 </p>
@@ -125,7 +123,7 @@ This is a **documentation repository** — not a runnable installer. To replicat
 1. **Install Hermes** (Windows): `irm https://hermes.nousresearch.com/install.ps1 | iex`
 2. **Deploy local infrastructure** (D:\ drive):
    - `IcyCache` → `cd D:\IcyCache && docker compose up -d` (port 8080)
-   - `OmniRoute` → `cd D:\MCP-Osiris && ...` (port 20128)
+   - `OmniRoute` → `cd D:\OmniRoute && docker compose up -d` (port 20128)
    - `Loom` / `Icy-Loom` → `cd D:\Icy-Loom && ...` (ports 8150–8153)
    - `Qdrant` → `docker run -p 6333:6333 qdrant/qdrant`
    - `LM Studio` → Load `qwen3-embedding-4b` on port 1234
