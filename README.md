@@ -1,5 +1,7 @@
 <div align="center"><img src="assets/banner.svg" width="100%" alt="HERMES environment banner"/></div>
 
+<div align="center"><img src="assets/mlkblk-logo.jpg" width="700" alt="MLKBLK logo"/></div>
+
 <h1 align="center" style="color: #16233A;">Hermes Environment</h1>
 <p align="center" style="font-size: 1.2rem; color: #17A398; font-weight: 500;">
   Complete Technical Documentation — Verified from Live Installation
