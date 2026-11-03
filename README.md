@@ -17,6 +17,18 @@
 
 ---
 
+## At a glance
+
+| | |
+|---|---|
+| **What it is** | The **complete technical record** of a Hermes agent install on a Dell Latitude 5420 (Windows 11 build 26300, 32 GB RAM, Iris Xe, **0 VRAM** — CPU-only inference). |
+| **What it covers** | 19 providers · 58 MCP servers · 596 active skills (+460 archived) · 26 plugins · 7 cron jobs · 196 sessions · 30+ projects on D:. |
+| **What it is not** | Not an installer, not a runtime. Every figure was read from the live machine with **read-only inspection**, then redacted (`annexes/B-redacted-secrets.md`). |
+| **Snapshot date** | Verified **2026-10-31 → 2026-11-02**. The counts are a *dated snapshot*, not live values — the environment keeps moving. |
+| **Layout** | `00-PREFACE` · `01-TABLE-OF-CONTENTS` · `02-GLOSSARY` · `docs/01→07` · `annexes/A→C` · `assets/figures/` |
+
+---
+
 ## 🎯 Purpose
 
 This repository contains the **complete, empirically verified record** of the Hermes agent installation on a Dell Latitude 5420 (Windows 11, build 26300, 32 GB RAM, Intel Iris Xe — **no GPU, CPU-only inference**).
@@ -193,6 +205,7 @@ This is a **documentation repository** — not a runnable installer. To replicat
 
 | Date | Change |
 |------|--------|
+| 2026-11-03 | README refreshed: `At a glance` summary on top, snapshot date made explicit |
 | 2026-11-01 | Repository created, dual-indexed (Loom + Qdrant), all figures verified |
 | 2026-10-31 | IcyLoom cache-hit bug fixed (commit 4cd5617) — 137 tests green |
 | 2026-10-31 | Skills index optimized: 70,234 → ~22,000 tokens |
