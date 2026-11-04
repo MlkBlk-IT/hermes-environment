@@ -74,7 +74,7 @@ Hermes Agent → IcyCache:8080 (local cache/proxy) → OmniRoute:20128 (14 provi
 
 ## 🌐 Ecosystem — Built on Hermes
 
-<div align="center"><img src="https://raw.githubusercontent.com/MlkBlk-IT/MlkBlk-IT/main/assets/project-grid-v5.svg" width="100%" alt="MLKBLK-IT portfolio — HERMES flagship" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/MlkBlk-IT/MlkBlk-IT/main/assets/project-grid-v7.svg" width="100%" alt="MLKBLK-IT portfolio — HERMES flagship" /></div>
 
 Every project in [@MlkBlk-IT](https://github.com/MlkBlk-IT) is built, tested and documented **on this Hermes environment**. The flagship is this repository; the sibling projects below share the same host, the same routing chain and the same design system.
 
