@@ -135,7 +135,8 @@ hermes-environment/
 │   ├── 04-providers-models.md   ← 19 providers, routing layers, model usage
 │   ├── 05-skills-plugins.md     ← 596 active / 460 archived skills, 26 plugins
 │   ├── 06-cron-sessions.md      ← 7 cron jobs, 196 sessions, token accounting
-│   └── 07-projects-ecosystem.md ← D:\ project inventory (30+ dirs)
+│   ├── 07-projects-ecosystem.md ← D:\ project inventory (30+ dirs)
+│   └── 08-setup-ops-2026-11-04.md ← Versioned setup, weekly backup, 3 profiles + Kanban, liveness alert
 ├── annexes/
 │   ├── A-full-inventory.md      ← Raw tables: config, providers, MCP, plugins, cron
 │   ├── B-redacted-secrets.md    ← Secret handling policy (all values redacted)
@@ -207,6 +208,7 @@ This is a **documentation repository** — not a runnable installer. To replicat
 
 | Date | Change |
 |------|--------|
+| 2026-11-04 | Setup operations: versioned setup (redacted), weekly backup (Mon 03:00), 3 profiles + Kanban, 5-min liveness alert — see [docs/08](docs/08-setup-ops-2026-11-04.md) |
 | 2026-11-03 | README refreshed: `At a glance` summary on top, snapshot date made explicit |
 | 2026-11-01 | Repository created, dual-indexed (Loom + Qdrant), all figures verified |
 | 2026-10-31 | IcyLoom cache-hit bug fixed (commit 4cd5617) — 137 tests green |
